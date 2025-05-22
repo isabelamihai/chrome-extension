@@ -14,6 +14,8 @@ Be aware that the extension works only on Chrome browser. <br/>
 
 
 
+
+
 ## ⚙️How it works?
 
 1.Clone the repository to your PC
