@@ -32,6 +32,6 @@ Return to chrome://extensions, click "Details" on the extension, and then click 
 
 ## Live link
 
-Vezi aplicatia live aici:
+Vezi aplicatia live aici:<br/>
 ![GhPages] - https://isabelamihai.github.io/chrome-extension <br/>
 ![Netlify] - https://mini-random-pass-generator.netlify.app/
