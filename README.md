@@ -2,6 +2,7 @@
 
 This app is a chrome extension made for saving leads, websites etc.
 <br/>
+<br/>
 When entering manually a lead/website etc click on "SAVE INPUT" button. <br/>
 When saving directly the current tab of the browser click "SAVE TAB".  <br/>
 When deleting all lead/websites double click on "DELETE ALL". <br/>
