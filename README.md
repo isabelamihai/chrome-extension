@@ -34,4 +34,4 @@ Return to chrome://extensions, click "Details" on the extension, and then click 
 
 Vezi aplicatia live aici:<br/>
 ![GhPages] - https://isabelamihai.github.io/chrome-extension <br/>
-![Netlify] - https://mini-random-pass-generator.netlify.app/
+![Netlify] - https://chrome-extension-a.netlify.app/
