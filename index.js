@@ -23,7 +23,7 @@ const ulEl = document.getElementById("ul-el")
 const deleteBtn = document.getElementById("delete-btn")
 
 function render(leads) {
-    let listItems = ""
+    let listItems = "";
     for (let i = 0; i < leads.length; i++) {
         listItems += `
             <li>
@@ -33,7 +33,7 @@ function render(leads) {
             </li>
         `
     }
-    ulEl.innerHTML = listItems
+    ulEl.innerHTML = listItems;
 }
 
 onValue(referenceInDB, function(snapshot) {
@@ -41,16 +41,16 @@ onValue(referenceInDB, function(snapshot) {
     if (snapshotDoesExist) {
         const snapshotValues = snapshot.val()
         const leads = Object.values(snapshotValues)
-        render(leads)
+        render(leads);
     }
 })
 
 deleteBtn.addEventListener("dblclick", function() {
     remove(referenceInDB)
-    ulEl.innerHTML = ""
+    ulEl.innerHTML = "";
 })
 
 inputBtn.addEventListener("click", function() {
     push(referenceInDB, inputEl.value)
-    inputEl.value = "" 
+    inputEl.value = "";
 })
