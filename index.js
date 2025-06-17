@@ -13,14 +13,14 @@ const firebaseConfig = {
 }
 
 
-const app = initializeApp(firebaseConfig)
-const database = getDatabase(app)
-const referenceInDB = ref(database, "leads")
+const app = initializeApp(firebaseConfig);
+const database = getDatabase(app);
+const referenceInDB = ref(database, "leads");
 
-const inputEl = document.getElementById("input-el")
-const inputBtn = document.getElementById("input-btn")
-const ulEl = document.getElementById("ul-el")
-const deleteBtn = document.getElementById("delete-btn")
+const inputEl = document.getElementById("input-el");
+const inputBtn = document.getElementById("input-btn");
+const ulEl = document.getElementById("ul-el");
+const deleteBtn = document.getElementById("delete-btn");
 
 function render(leads) {
     let listItems = "";
